@@ -72,6 +72,9 @@
                                 <rect key="frame" x="159" y="368" width="56" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Calcular"/>
+                                <connections>
+                                    <action selector="calculaImc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7di-j9-acr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Hx-sq-MWM">
                                 <rect key="frame" x="103" y="438" width="169" height="30"/>
