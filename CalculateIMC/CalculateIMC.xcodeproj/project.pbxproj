@@ -14,6 +14,7 @@
 		9D130E3220B9E09E002DEF68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D130E3020B9E09E002DEF68 /* LaunchScreen.storyboard */; };
 		9D130E3D20B9E09E002DEF68 /* CalculateIMCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D130E3C20B9E09E002DEF68 /* CalculateIMCTests.swift */; };
 		9D130E4820B9E09E002DEF68 /* CalculateIMCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D130E4720B9E09E002DEF68 /* CalculateIMCUITests.swift */; };
+		9D59721A20BA07B100EDBECB /* TelaResultadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D59721920BA07B100EDBECB /* TelaResultadosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9D130E4320B9E09E002DEF68 /* CalculateIMCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculateIMCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D130E4720B9E09E002DEF68 /* CalculateIMCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateIMCUITests.swift; sourceTree = "<group>"; };
 		9D130E4920B9E09E002DEF68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D59721920BA07B100EDBECB /* TelaResultadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaResultadosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9D130E2720B9E09A002DEF68 /* AppDelegate.swift */,
 				9D130E2920B9E09A002DEF68 /* ViewController.swift */,
 				9D130E2B20B9E09A002DEF68 /* Main.storyboard */,
+				9D59721920BA07B100EDBECB /* TelaResultadosViewController.swift */,
 				9D130E2E20B9E09E002DEF68 /* Assets.xcassets */,
 				9D130E3020B9E09E002DEF68 /* LaunchScreen.storyboard */,
 				9D130E3320B9E09E002DEF68 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D130E2A20B9E09A002DEF68 /* ViewController.swift in Sources */,
+				9D59721A20BA07B100EDBECB /* TelaResultadosViewController.swift in Sources */,
 				9D130E2820B9E09A002DEF68 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
