@@ -9,6 +9,10 @@
 import UIKit
 
 class TelaResultadosViewController: UIViewController {
+    
+    var valorImc : Float?
+    var nomeCompleto: String?
+    var idade : Float?
 
     @IBOutlet weak var labelNomeCompleto: UILabel!
     @IBOutlet weak var labelValorIdade: UILabel!
@@ -16,8 +20,13 @@ class TelaResultadosViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        let sValorImg = NSString(format: "%.2f", valorImc!)
+        let sIdade = NSString(format: "%.0f", idade!)
+        
+        self.labelNomeCompleto.text = "Olá \(nomeCompleto!)"
+        self.labelValorIdade.text = "\(sIdade) anos"
+        self.labelResultado.text = "\(sValorImg)"
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,7 +34,10 @@ class TelaResultadosViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func voltar(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
