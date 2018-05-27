@@ -4,8 +4,6 @@
 
 ## Screenshots
 
-### Mobile
-
 | <img width="250" height="444" src="./demo/app-1.png"> | <img width="250" height="444" src="./demo/app-2.png"> | <img width="250" height="444" src="./demo/app-3.png"> |
 | :---: | :---: | :---: |
 | Information for Calculation | Alert | Completed Form |
