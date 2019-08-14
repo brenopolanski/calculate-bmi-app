@@ -16,7 +16,7 @@
 ## Developers
 
 - [@brenopolanski](https://github.com/brenopolanski)
-- [@FabricioNS](https://github.com/FabricioNS)
+- [@inaciofabricio](https://github.com/inaciofabricio)
 
 ## Credits
 
