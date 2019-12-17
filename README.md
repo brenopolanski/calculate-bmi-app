@@ -24,4 +24,4 @@ Inspired by article: [Criando um app para iOS com Swift](https://medium.com/thde
 
 ## License
 
-[MIT License](http://brenopolanski.mit-license.org/) © Breno Polanski
+[MIT License](https://brenopolanski.mit-license.org/) © Breno Polanski
